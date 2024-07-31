@@ -1,0 +1,76 @@
+/* hrlist.css */
+.container-fluid {
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+}
+
+.row {
+    height: 100%;
+    margin: 0;
+}
+
+.sidebar {
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+}
+
+.list-group {
+    padding: 20px;
+}
+
+.list-header {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.list-group-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: left;
+    white-space: normal; /* Allow text to wrap */
+    word-break: break-word; /* Break long words if needed */
+}
+
+.list-group-item.active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.details {
+    padding: 20px;
+}
+
+.details-panel {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.employee-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin-bottom: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .sidebar {
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+    }
+
+    .details {
+        padding: 10px;
+    }
+}

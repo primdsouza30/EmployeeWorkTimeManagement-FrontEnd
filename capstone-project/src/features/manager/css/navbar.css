@@ -1,0 +1,27 @@
+.custom-navbar {
+    height: 80px; /* Adjust the height of the navbar */
+    padding: 0; /* Remove default padding if needed */
+  }
+  
+  .custom-navbar .navbar-brand {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-navbar .navbar-nav .nav-link {
+    line-height: 80px; /* Align text vertically in the middle */
+  }
+  
+  .custom-navbar .navbar-toggler {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-navbar .form-control,
+  .custom-navbar .btn {
+    height: 50px;
+    width: 80px; /* Adjust height of input and buttons to match the navbar */
+  }
+  
